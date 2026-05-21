@@ -1,0 +1,15 @@
+# The name of the plugin.
+name: Test Matrix Bot
+# A link to the Git repository.
+repo: https://github.com/victorewik/Test-Matrix
+# The SPDX license identifier for the plugin (same as in maubot.yaml)
+license: AGPL V3.0
+# The author of the plugin.
+author: victorewik
+# A short description for the plugin. May contain markdown.
+description: Advanced point-to-point diagnostic bot for Matrix homeservers. Tracks latency, IP resolution, and geographic location for both sender and receiver.
+# Antifeature identifiers. 
+antifeatures: []
+# List of public bot user IDs where the plugin is running.
+public_instances: 
+  - "@botewik:victorewik.es"
